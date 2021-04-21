@@ -48,7 +48,7 @@ class App extends Component {
           <FamilyChanger allowEdit={this.state.allowEdit} update={this.updateFamily}/>
         </div>
         <div className="textArea">
-          <TextContainer allowEdit={this.state.allowEdit} fontColor={this.state.fontColor} fontSize={this.state.fontSize} fontFamil={this.state.fontFamily}/>
+          <TextContainer allowEdit={this.state.allowEdit} fontColor={this.state.fontColor} fontSize={this.state.fontSize} fontFamily={this.state.fontFamily}/>
         </div>
       </div>
     );
